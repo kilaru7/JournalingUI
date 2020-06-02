@@ -1,1 +1,3 @@
 Journaling App
+-create database according dbcommands file
+-start from toc.php
