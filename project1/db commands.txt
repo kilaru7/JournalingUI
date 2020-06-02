@@ -1,0 +1,19 @@
+1) mysql -h localhost -u root
+2) db: mydb, table: posts
+3) columns: Sno,title,body,created_at,updated_at
+
+Chronology
+1) Make DB
+2) fill entries
+3) make index page
+3) display titles in index page
+4) display article in page
+5) update article
+6) add new article
+7) delete article
+8) beautify
+9) rich textbox
+10) word counter
+11) next and previous buttons
+12) password
+

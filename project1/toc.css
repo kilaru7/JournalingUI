@@ -1,0 +1,89 @@
+body
+{
+background-image:url('bg.jpg');
+}
+
+.page{
+	display:block;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+	height:550px;
+	width:auto;
+}
+
+.sno{
+	width:20px;
+	border-right:1px solid grey;
+	padding-right: 5px;
+}
+
+.name{
+	width:550px;
+	padding-left: 5px;
+}
+
+.edit{
+	border-right:1px solid grey;
+	padding-right: 5px;
+}
+
+.delete{
+	padding-left: 5px;
+}
+
+table{
+	display:inline-block;
+	position:absolute;
+	overflow:auto;
+	left:340px;
+	top:100px;
+	height:400px;
+	width:720px;
+	border-collapse: collapse;
+}
+
+tr{
+	height:15px;
+	width:720px;
+	border-bottom: 1px solid grey;
+}
+
+
+#title{
+	display:inline-block;
+	position:absolute;
+	top:15px;
+	left:320px;
+	width:720px;
+	height:50px;
+	text-align: center;
+	color:maroon;
+	font-size:30px;
+}
+
+#contents{
+	height:50px;
+	width: 100px;
+	text-align: center;
+	color:maroon;
+	position: absolute;
+	top:40px;
+	left:70px;
+}
+
+#toc{
+	height:50px;
+	width: 100px;
+	text-align: center;
+	color:maroon;
+	position: absolute;
+	top:55px;
+	left:70px;
+}
+
+#toc:hover{
+	top:50px;
+	font-size: 150%;
+}
