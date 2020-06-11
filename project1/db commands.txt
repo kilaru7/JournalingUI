@@ -6,19 +6,3 @@
  `body` text NOT NULL,
  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
-
-Chronology
-1) Make DB
-2) fill entries
-3) make index page
-3) display titles in index page
-4) display article in page
-5) update article
-6) add new article
-7) delete article
-8) beautify
-9) rich textbox
-10) word counter
-11) next and previous buttons
-12) password
-
