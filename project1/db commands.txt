@@ -1,6 +1,11 @@
 1) mysql -h localhost -u root
-2) db: mydb, table: posts
-3) columns: Sno,title,body,created_at,updated_at
+2) CREATE DATABASE mydb;
+3) CREATE TABLE `posts` (
+ `Sno` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+ `title` varchar(255) NOT NULL,
+ `body` text NOT NULL,
+ `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+ `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
 
 Chronology
 1) Make DB
