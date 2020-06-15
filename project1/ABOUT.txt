@@ -1,3 +1,6 @@
 Journaling App
+Can write articles, save, edit them.
+
+To start
 -create database according dbcommands file
 -start from toc.php
